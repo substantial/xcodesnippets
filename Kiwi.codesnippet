@@ -1,0 +1,21 @@
+#import "<#class name#>.h"
+
+#import "TSKiwi.h"
+
+
+
+SPEC_BEGIN(<#class name#>Spec)
+
+
+
+describe(@"<#class name#>Spec", ^{
+
+    it(@"", ^{
+
+    });
+
+});
+
+
+
+SPEC_END
