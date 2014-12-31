@@ -1,21 +1,33 @@
-#import "<#class name#>.h"
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>kiwi</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#import "KiwiHelper.h"
+#import "&lt;#class_name#&gt;.h"
 
-#import "TSKiwi.h"
+SPEC_BEGIN(&lt;#class_name#&gt;Spec)
 
-
-
-SPEC_BEGIN(<#class name#>Spec)
-
-
-
-describe(@"<#class name#>Spec", ^{
-
-    it(@"", ^{
-
-    });
-
+describe(@"&lt;#class_name#&gt;", ^{
+    &lt;#code#&gt;
 });
 
-
-
-SPEC_END
+SPEC_END</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>67A69ECF-9BB5-4EB5-A04B-188952FAF429</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Kiwi</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
