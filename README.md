@@ -8,5 +8,11 @@ XCode Snippets
 
 ## Installation / Updates:
 
-Run the install script:
+- Quit XCode
+- Consider backing up your existing snippets directory, found at:
+    ~/Library/Developer/Xcode/UserData/CodeSnippets
+
+- Note that if you try to add a duplicate snippet, XCode may not be able to launch
+
+- Run the install script:
     ./install.sh
